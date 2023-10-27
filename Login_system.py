@@ -62,7 +62,7 @@ def main_screen():
 
     def reset():
         entry_username.delete(0, END)
-        entry_password.delete(0, End)
+        entry_password.delete(0, END)
 
     Button(mainframe, text="Login", height="2", width=23, bg="#ed3833", fg="white", bd=0, command=login).place(x=100, y=250)
     Button(mainframe, text="Reset", height="2", width=23, bg="#1089ff", fg="white", bd=0, command=reset).place(x=300, y=250)
